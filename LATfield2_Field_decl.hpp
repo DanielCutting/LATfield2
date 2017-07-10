@@ -1587,6 +1587,7 @@ void  Field<FieldType>::saveSliceHDF5(string filename, string dataset_name,int x
     int dim = this->lattice_->dim();
 
     int sSize[dim];
+    int sSize_thin[dim-1];
     int r[dim];
 
     if(thickness>1)

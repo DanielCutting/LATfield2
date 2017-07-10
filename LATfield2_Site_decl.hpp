@@ -125,13 +125,13 @@ public:
    The + operator is used to make a displacement of +1 site the the asked direction.
    \param direction : direction of the displacement
    */
-		Long operator+(int direction);
+		long operator+(int direction);
   /*!
    Overloaded operator -
    The - operator is used to make a displacement of -1 site the the asked direction.
    \param direction : direction of the displacement
    */
-		Long operator-(int direction);
+		long operator-(int direction);
 
 		long move(int direction);
     long move(int direction, int step);
